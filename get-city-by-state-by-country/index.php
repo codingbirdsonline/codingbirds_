@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Upload Excel(CSV) file with PHP - CodingBirdsOnline.com</title>
+    <title>Country-State-City Dependency dropdown - CodingBirdsOnline.com</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -48,31 +48,32 @@
     <p>https://codingbirdsonline.com</p>
 </div>
 
-
+<?php
+include "config.php";
+include_once "Common.php";
+$common = new Common();
+$allCountries = $common->getCountries($connection);
+?>
 <div id="box">
     <form action="script.php" method="post">
-        <?php
-        include "config.php";
-        include_once "Common.php";
-        $common = new Common();
-        $countries = $common->getCountry($connection);
-        ?>
 
         <label>Country <span style="color:red">*</span></label>
-        <select name="country" id="countryId" class="form-control" onchange="getStateByCountry();">
+        <select name="country" id="countryId" class="form-control" onchange="getStatesByCountry();" >
             <option value="">Country</option>
             <?php
-            if ($countries->num_rows > 0 ){
-                while ($country = $countries->fetch_object()) {
-                    $countryName = $country->name; ?>
-                    <option value="<?php echo $country->id; ?>"><?php echo $countryName;?></option>
+            if ($allCountries->num_rows > 0 ){
+                while ($country = $allCountries->fetch_object() ) {
+                    $countryId = $country->id;
+                    $countryName = $country->name;?>
+                    <option value="<?php echo $countryId;?>"><?php echo $countryName;?></option>
                 <?php }
             }
             ?>
+
         </select>
 
         <label>State <span style="color:red">*</span></label>
-        <select class="form-control" name="state" id="stateId" onchange="getCityByState();" >
+        <select class="form-control" name="state" id="stateId" onchange="getCityByState();"  >
             <option value="">State</option>
         </select>
 
@@ -81,25 +82,27 @@
             <option value="">City</option>
         </select>
 
-        <input type="submit" value="Submit">
+        <input type="submit" name="submit" value="Submit">
     </form>
 </div>
-
-
-
 <script>
-    function getStateByCountry() {
+    function getStatesByCountry() {
         var countryId = $("#countryId").val();
-        $.post("ajax.php",{getStateByCountry:'getStateByCountry',countryId:countryId},function (response) {
+        $.post("ajax.php",{getStatesByCountry:'getStatesByCountry',countryId:countryId},function (response) {
+           // alert(response);
             var data = response.split('^');
-            $("#stateId").html(data[1]);
+            var stateData = data[1];
+            $("#stateId").html(stateData);
         });
     }
+
     function getCityByState() {
         var stateId = $("#stateId").val();
         $.post("ajax.php",{getCityByState:'getCityByState',stateId:stateId},function (response) {
+            // alert(response);
             var data = response.split('^');
-            $("#cityDiv").html(data[1]);
+            var cityData = data[1];
+            $("#cityDiv").html(cityData);
         });
     }
 </script>

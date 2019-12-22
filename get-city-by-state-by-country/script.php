@@ -1,10 +1,7 @@
 <?php
 if (isset($_POST['submit'])) {
-    $country = $_POST['country'];
-    $state = $_POST['state'];
-    $city = $_POST['city'];
+    echo $_POST['country'];echo '<br/>';
+    echo $_POST['state'];echo '<br/>';
+    echo $_POST['city'];echo '<br/>';
 
-    echo 'Country is: '. $country; echo '<br/>';
-    echo 'State is  : '. $state; echo '<br/>';
-    echo 'City is   : '. $city; echo '<br/>';
 }
