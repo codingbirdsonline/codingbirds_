@@ -1,6 +1,4 @@
 <?php
-
-
 class Common
 {
     public function getAllRecords($connection) {

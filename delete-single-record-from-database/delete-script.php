@@ -9,5 +9,4 @@ if (isset($_GET['recordId'])){
         echo '<script>alert("Record deleted successfully !")</script>';
         echo '<script>window.location.href="index.php";</script>';
     }
-
 }
