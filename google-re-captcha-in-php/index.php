@@ -29,7 +29,7 @@
                             <input type="text" name="email" id="email" class="form-control" required placeholder="Email">
                         </div> <br/>
                         <div class="form-label-group">
-                            <div class="g-recaptcha" data-sitekey="your_site_key">
+                            <div class="g-recaptcha" data-sitekey="6Lc0UMoUAAAAAKG7xjY8d_4pah-2l9-tbwgGlYyP">
                             </div> <br/>
                             <button type="submit" name="submitBtn" id="submitBtn" class="btn btn-lg btn-primary btn-block text-uppercase" >Verify</button>
                     </form>

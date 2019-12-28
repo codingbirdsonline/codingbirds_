@@ -21,7 +21,7 @@
                     <?php
 
                     if(isset($_POST['submitBtn'])) {
-                        $secret = 'your_secret_key';
+                        $secret = '6Lc0UMoUAAAAAL56GsUUSxJnEhqp1LYByZCZSgjO';
                         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
                         $responseData = json_decode($verifyResponse);
 
