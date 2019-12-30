@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Integrate datatable - Coding Birds Online</title>
+    <title>Integrate data tables plugin in html and css - Coding Birds Online</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -17,7 +17,13 @@
 </head>
 <body>
 <div class="container">
-    <table id="exampleTable" class="table table-striped table-bordered" style="width: 70%">
+    <div style="margin-top: 20px;padding-bottom: 20px;">
+        <center>
+            <img width="100" src="https://codingbirdsonline.com/wp-content/uploads/2019/12/cropped-coding-birds-favicon-2-1-192x192.png"/>
+            <h3>Integrate data tables plugin in html and css </h3>
+        </center>
+    </div>
+    <table id="exampleTable" class="table table-striped table-bordered" style="width: 100%">
         <thead id="thead">
         <tr style="background-color: #1573ff">
             <th>Name</th>
