@@ -1,0 +1,16 @@
+#thead>tr>th{ color: white; }
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom-gap{
+    margin-bottom: 10px;
+}
+
+.field-required,.delete-spinner{
+    color: red;
+}
+#spinnerLoader{
+    display: none;
+}
