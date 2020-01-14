@@ -56,11 +56,13 @@ function editData(editId,name,email,contact) {
 }
 
 function deleteData(deleteId) {
-    $('#deleteSpinner'+deleteId).show('fast');
-    $.post("crud-script.php",{crudOperation:"deleteData",deleteId:deleteId},function (response) {
-        if (response == "deleted") {
-            $('#deleteSpinner'+deleteId).hide('fast');
-            getAllData();
-        }
-    });
+    if(confirm("Are you sure to delete this ?")){
+        $('#deleteSpinner'+deleteId).show('fast');
+        $.post("crud-script.php",{crudOperation:"deleteData",deleteId:deleteId},function (response) {
+            if (response == "deleted") {
+                $('#deleteSpinner'+deleteId).hide('fast');
+                getAllData();
+            }
+        });
+    }
 }
