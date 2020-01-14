@@ -1,6 +1,4 @@
 <?php
-
-
 class CrudOperations
 {
     public function saveData($connection,$name,$email,$contact,$editId)
