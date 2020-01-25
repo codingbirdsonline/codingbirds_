@@ -1,0 +1,13 @@
+.blog-header{margin-top: 100px;}
+.btn-successs{background-color: #35c155;color: white}
+.card-body>a:hover{
+    color: white;
+}
+.left-arrow-margin{
+    margin-right: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .action-buttons {
+        margin-top: 10px;
+    }
+}
