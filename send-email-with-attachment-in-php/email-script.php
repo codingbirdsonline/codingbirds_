@@ -2,7 +2,6 @@
 
 if(isset($_POST['submit'])){
     // Get the submitted form data
-    $postData = $_POST;
     $email = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
