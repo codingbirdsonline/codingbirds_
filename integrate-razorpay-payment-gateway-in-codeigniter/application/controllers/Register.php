@@ -11,7 +11,7 @@ class Register extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('register');
+		$this->load->view('registration-form');
 	}
 
 	/**
@@ -21,6 +21,7 @@ class Register extends CI_Controller {
 	{
 		$api = new Api(RAZOR_KEY, RAZOR_SECRET_KEY);
 		/**
+		 * You can calculate payment amount as per your logic
 		 * Always set the amount from backend for security reasons
 		 */
 		$_SESSION['payable_amount'] = 10;
@@ -41,7 +42,7 @@ class Register extends CI_Controller {
 
 		$data = $this->prepareData($amount,$razorpayOrderId);
 
-		$this->load->view('automatic',array('data' => $data));
+		$this->load->view('rezorpay',array('data' => $data));
 	}
 
 	/**
@@ -67,7 +68,7 @@ class Register extends CI_Controller {
 		}
 		if ($success === true) {
 			/**
-			 * Call this function from whereever you want
+			 * Call this function from where ever you want
 			 * to save save data before of after the payment
 			 */
 			$this->setRegistrationData();
