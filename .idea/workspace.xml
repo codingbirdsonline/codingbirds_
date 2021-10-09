@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d13671b4-b5ab-441f-8b95-fc561e845072" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/file-upload-using-ajax-with-progress-bar/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file-upload-using-ajax-with-progress-bar/uploadFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/StripeHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/failed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codingbirds_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codingbirds_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-spreadsheet/acss-64 art profile.xls" beforeDir="false" afterPath="$PROJECT_DIR$/php-spreadsheet/acss-64 art profile.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-spreadsheet/acss-64 sale order-1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/php-spreadsheet/acss-64 sale order-1.xls" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/integrate-razorpay-payment-gateway-in-codeigniter/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zERbmxqLoqDkVFuIrlCKsEKfyZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\projects\codingbirds_\integrate-stripe-payment-gateway-in-php" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\projects\codingbirds_\integrate-stripe-payment-gateway-in-php" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d13671b4-b5ab-441f-8b95-fc561e845072" name="Default Changelist" comment="" />
+      <created>1633711335250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633711335250</updated>
+      <workItem from="1633711337232" duration="7063000" />
+      <workItem from="1633769573177" duration="8691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
