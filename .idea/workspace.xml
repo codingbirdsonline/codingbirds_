@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13671b4-b5ab-441f-8b95-fc561e845072" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/file-upload-using-ajax-with-progress-bar/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file-upload-using-ajax-with-progress-bar/uploadFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/StripeHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/checkout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/failed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/success.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codingbirds_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codingbirds_.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-spreadsheet/acss-64 art profile.xls" beforeDir="false" afterPath="$PROJECT_DIR$/php-spreadsheet/acss-64 art profile.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-spreadsheet/acss-64 sale order-1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/php-spreadsheet/acss-64 sale order-1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/Quote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/load-more-quotes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/load-more-script.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +18,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/integrate-razorpay-payment-gateway-in-codeigniter/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,17 +38,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/paytm-payment-gatway-in-php/paytm-lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\projects\codingbirds_\paytm-payment-gatway-in-php\paytm-lib" />
+      <recent name="F:\xampp\htdocs\projects\codingbirds_\paytm-payment-gatway-in-php" />
       <recent name="F:\xampp\htdocs\projects\codingbirds_\integrate-stripe-payment-gateway-in-php" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -65,7 +67,15 @@
       <option name="presentableId" value="Default" />
       <updated>1633711335250</updated>
       <workItem from="1633711337232" duration="7063000" />
-      <workItem from="1633769573177" duration="8691000" />
+      <workItem from="1633769573177" duration="11478000" />
+      <workItem from="1633858724098" duration="806000" />
+      <workItem from="1633860749719" duration="581000" />
+      <workItem from="1633968972925" duration="2248000" />
+      <workItem from="1634011981793" duration="571000" />
+      <workItem from="1634054946228" duration="1582000" />
+      <workItem from="1634098581974" duration="597000" />
+      <workItem from="1659780166933" duration="5411000" />
+      <workItem from="1659846264849" duration="9147000" />
     </task>
     <servers />
   </component>
