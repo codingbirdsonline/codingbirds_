@@ -2,13 +2,293 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13671b4-b5ab-441f-8b95-fc561e845072" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/Quote.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/load-more-quotes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/load-more-script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/.coveralls.github-actions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/.php-cs-fixer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/build.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/data/ca-certificates.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/AccountLink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/AlipayAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/All.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/Create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/Delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/NestedResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/Retrieve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/Search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiOperations/Update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiRequestor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApiResponse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApplePayDomain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApplicationFee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ApplicationFeeRefund.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Balance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BalanceTransaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BankAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BaseStripeClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BaseStripeClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BillingPortal/Configuration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BillingPortal/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BitcoinReceiver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/BitcoinTransaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Capability.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Card.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/CashBalance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Charge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Checkout/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/CountrySpec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Coupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/CreditNote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/CreditNoteLineItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/CustomerBalanceTransaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Discount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Dispute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/EphemeralKey.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ErrorObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/ApiConnectionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/AuthenticationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/BadMethodCallException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/CardException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/ExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/IdempotencyException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/ExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/InvalidClientException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/InvalidGrantException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/InvalidRequestException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/InvalidScopeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/OAuthErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/UnknownOAuthErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/UnsupportedGrantTypeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/OAuth/UnsupportedResponseTypeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/PermissionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/RateLimitException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/SignatureVerificationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/UnexpectedValueException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Exception/UnknownApiErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ExchangeRate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/FileLink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/FinancialConnections/Account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/FinancialConnections/AccountOwner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/FinancialConnections/AccountOwnership.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/FinancialConnections/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/FundingInstructions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/HttpClient/ClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/HttpClient/StreamingClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Identity/VerificationReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Identity/VerificationSession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Invoice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/InvoiceItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/InvoiceLineItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Issuing/Authorization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Issuing/Card.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Issuing/CardDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Issuing/Cardholder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Issuing/Dispute.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Issuing/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/LineItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/LoginLink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Mandate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/OAuthErrorObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/OrderItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/OrderReturn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/PaymentIntent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/PaymentLink.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/PaymentMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Payout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Plan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/PromotionCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Quote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Radar/EarlyFraudWarning.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Radar/ValueList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Radar/ValueListItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Recipient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/RecipientTransfer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Refund.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Reporting/ReportRun.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Reporting/ReportType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/RequestTelemetry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Review.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SKU.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SearchResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/AbstractService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/AbstractServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/AccountLinkService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/AccountService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/ApplePayDomainService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/ApplicationFeeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/BalanceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/BalanceTransactionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/BillingPortal/BillingPortalServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/BillingPortal/ConfigurationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/BillingPortal/SessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/ChargeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Checkout/CheckoutServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Checkout/SessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/CoreServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/CountrySpecService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/CouponService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/CreditNoteService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/CustomerService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/DisputeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/EphemeralKeyService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/EventService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/ExchangeRateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/FileLinkService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/FileService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/FinancialConnections/AccountService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/FinancialConnections/FinancialConnectionsServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/FinancialConnections/SessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Identity/IdentityServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Identity/VerificationReportService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Identity/VerificationSessionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/InvoiceItemService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/InvoiceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Issuing/AuthorizationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Issuing/CardService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Issuing/CardholderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Issuing/DisputeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Issuing/IssuingServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Issuing/TransactionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/MandateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/OAuthService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/OrderReturnService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/OrderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/PaymentIntentService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/PaymentLinkService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/PaymentMethodService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/PayoutService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/PlanService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/PriceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/ProductService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/PromotionCodeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/QuoteService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Radar/EarlyFraudWarningService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Radar/RadarServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Radar/ValueListItemService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Radar/ValueListService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/RefundService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Reporting/ReportRunService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Reporting/ReportTypeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Reporting/ReportingServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/ReviewService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/SetupAttemptService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/SetupIntentService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/ShippingRateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Sigma/ScheduledQueryRunService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Sigma/SigmaServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/SkuService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/SourceService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/SubscriptionItemService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/SubscriptionScheduleService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/SubscriptionService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TaxCodeService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TaxRateService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Terminal/ConfigurationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Terminal/ConnectionTokenService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Terminal/LocationService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Terminal/ReaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/Terminal/TerminalServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TestHelpers/RefundService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TestHelpers/Terminal/ReaderService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TestHelpers/Terminal/TerminalServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TestHelpers/TestClockService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TestHelpers/TestHelpersServiceFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TokenService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TopupService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/TransferService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Service/WebhookEndpointService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SetupAttempt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SetupIntent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ShippingRate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Sigma/ScheduledQueryRun.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SingletonApiResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Source.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SourceTransaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Stripe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/StripeClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/StripeClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/StripeObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/StripeStreamingClientInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Subscription.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SubscriptionItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/SubscriptionSchedule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/TaxCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/TaxId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/TaxRate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Terminal/Configuration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Terminal/ConnectionToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Terminal/Location.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Terminal/Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/TestHelpers/TestClock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/ThreeDSecure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Topup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Transfer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/TransferReversal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/UsageRecord.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/UsageRecordSummary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/CaseInsensitiveArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/DefaultLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/LoggerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/ObjectTypes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/RandomGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/RequestOptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/Set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Util/Util.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/Webhook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/WebhookEndpoint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/lib/WebhookSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/phpdoc.dist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/phpstan-baseline.neon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/phpstan.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create-stripe-payment-links/vendor/stripe/stripe-php/update_certs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/bird_quotes.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/integrate-stripe-payment-gateway-in-php/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +310,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zERbmxqLoqDkVFuIrlCKsEKfyZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/paytm-payment-gatway-in-php/paytm-lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/load-more-records-using-php-mysql-ajax" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,10 +330,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xampp\htdocs\projects\codingbirds_\load-more-records-using-php-mysql-ajax" />
       <recent name="F:\xampp\htdocs\projects\codingbirds_\paytm-payment-gatway-in-php\paytm-lib" />
       <recent name="F:\xampp\htdocs\projects\codingbirds_\paytm-payment-gatway-in-php" />
       <recent name="F:\xampp\htdocs\projects\codingbirds_\integrate-stripe-payment-gateway-in-php" />
@@ -75,7 +361,12 @@
       <workItem from="1634054946228" duration="1582000" />
       <workItem from="1634098581974" duration="597000" />
       <workItem from="1659780166933" duration="5411000" />
-      <workItem from="1659846264849" duration="9147000" />
+      <workItem from="1659846264849" duration="11052000" />
+      <workItem from="1659943339989" duration="586000" />
+      <workItem from="1660042142995" duration="3159000" />
+      <workItem from="1660112678325" duration="1758000" />
+      <workItem from="1665390925904" duration="6256000" />
+      <workItem from="1665590112368" duration="434000" />
     </task>
     <servers />
   </component>
@@ -93,5 +384,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
