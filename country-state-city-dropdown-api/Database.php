@@ -1,11 +1,18 @@
 <?php
+include_once "../env-constants.php";
 class Database
 {
     protected $connection = null;
+
+    /**
+     * Prepares the DB connection
+     * Database constructor.
+     * @throws Exception
+     */
     public function __construct()
     {
         try {
-            $this->connection = new mysqli("localhost", "root", "", "codingbirds");
+            $this->connection = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
             if (!$this->connection) {
                 throw new Exception("Could not connect to database.");
             }
@@ -13,6 +20,13 @@ class Database
             throw new Exception($e->getMessage());
         }
     }
+
+    /**
+     * Executes the query
+     * @param string $query
+     * @return bool|mysqli_result
+     * @throws Exception
+     */
     public function query($query = "")
     {
         try {
