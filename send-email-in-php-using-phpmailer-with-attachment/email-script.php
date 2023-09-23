@@ -2,7 +2,7 @@
 session_start();
 
 require 'vendor/autoload.php'; // <-- keep this line if using composer
-require '../../env-constants.php';
+require '../env-constants.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
